@@ -20,9 +20,17 @@ export interface ShoppingItem {
     quantity: number;
 }
 
+export interface GoogleUser {
+    name: string;
+    email: string;
+    picture: string;
+}
+
 interface AppContextType {
     isLoggedIn: boolean;
     setIsLoggedIn: (v: boolean) => void;
+    googleUser: GoogleUser | null;
+    setGoogleUser: (u: GoogleUser | null) => void;
     products: Product[];
     setProducts: React.Dispatch<React.SetStateAction<Product[]>>;
     shoppingList: ShoppingItem[];
@@ -33,6 +41,7 @@ interface AppContextType {
 
 const AppContext = createContext<AppContextType | null>(null);
 
+
 export const useAppContext = () => {
     const ctx = useContext(AppContext);
     if (!ctx) throw new Error('useAppContext must be used inside AppProvider');
@@ -41,6 +50,7 @@ export const useAppContext = () => {
 
 export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     const [isLoggedIn, setIsLoggedIn] = useState(false);
+    const [googleUser, setGoogleUser] = useState<GoogleUser | null>(null);
     const [products, setProducts] = useState<Product[]>(initialProductsData as Product[]);
     const [shoppingList, setShoppingList] = useState<ShoppingItem[]>([]);
     const fileInputRef = useRef<HTMLInputElement | null>(null);
@@ -93,6 +103,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     return (
         <AppContext.Provider value={{
             isLoggedIn, setIsLoggedIn,
+            googleUser, setGoogleUser,
             products, setProducts,
             shoppingList, setShoppingList,
             fileInputRef, handleFileUpload,

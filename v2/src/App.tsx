@@ -8,6 +8,9 @@ import PainelAnalises from "./pages/Dashboard/PainelAnalises";
 import NovoProduto from "./pages/NovoProduto/NovoProduto";
 import ListaCompras from "./pages/ListaCompras/ListaCompras";
 import InfoImpostos from "./pages/Impostos/InfoImpostos";
+import UserProfiles from "./pages/UserProfiles";
+import AccountSettings from "./pages/Settings/AccountSettings";
+import Support from "./pages/Support/Support";
 
 function ProtectedRoute({ children }: { children: React.ReactNode }) {
   const { isLoggedIn } = useAppContext();
@@ -32,6 +35,9 @@ export default function App() {
           <Route path="/add" element={<NovoProduto />} />
           <Route path="/list" element={<ListaCompras />} />
           <Route path="/taxes" element={<InfoImpostos />} />
+          <Route path="/profile" element={<UserProfiles />} />
+          <Route path="/settings" element={<AccountSettings />} />
+          <Route path="/support" element={<Support />} />
         </Route>
 
         {/* 404 */}
@@ -40,3 +46,4 @@ export default function App() {
     </Router>
   );
 }
+

@@ -1,9 +1,11 @@
-import React, { useState, useMemo } from 'react';
+import { useState, useMemo } from 'react';
+
 import PageMeta from '../../components/common/PageMeta';
 import { useAppContext } from '../../context/AppContext';
 import { TrendingUp, BarChart3, AlertCircle, Sparkles, Loader2, Filter, Search } from 'lucide-react';
 
-const GEMINI_API_KEY = '';
+const GEMINI_API_KEY = 'AIzaSyDiueN9vh19yLCjqFgsv4Wn_enMC3TlPHE';
+
 
 async function askGemini(prompt: string): Promise<string> {
     if (!GEMINI_API_KEY) return '🔑 Configure a chave da API Gemini em PainelAnalises.tsx para usar esta função.';
