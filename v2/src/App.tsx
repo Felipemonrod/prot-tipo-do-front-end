@@ -11,10 +11,6 @@ import InfoImpostos from "./pages/Impostos/InfoImpostos";
 import UserProfiles from "./pages/UserProfiles";
 import AccountSettings from "./pages/Settings/AccountSettings";
 import Support from "./pages/Support/Support";
-import ProjectManagement from "./pages/ProjectManagement/ProjectManagement";
-import ProfessionalManagement from "./pages/ProjectManagement/ProfessionalManagement";
-import TaskTracking from "./pages/ProjectManagement/TaskTracking";
-import ProjectFinances from "./pages/ProjectManagement/ProjectFinances";
 
 function ProtectedRoute({ children }: { children: React.ReactNode }) {
   const { isLoggedIn } = useAppContext();
@@ -42,10 +38,6 @@ export default function App() {
           <Route path="/profile" element={<UserProfiles />} />
           <Route path="/settings" element={<AccountSettings />} />
           <Route path="/support" element={<Support />} />
-          <Route path="/projeto" element={<ProjectManagement />} />
-          <Route path="/projeto/profissionais" element={<ProfessionalManagement />} />
-          <Route path="/projeto/tarefas" element={<TaskTracking />} />
-          <Route path="/projeto/financeiro" element={<ProjectFinances />} />
         </Route>
 
         {/* 404 */}

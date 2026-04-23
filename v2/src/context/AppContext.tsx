@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useRef, useState } from 'react';
+import React, { createContext, useContext, useEffect, useRef, useState } from 'react';
 import initialProductsData from '../initialProducts.json';
 import type {
     GoogleUser, Product, ShoppingItem,
@@ -38,6 +38,19 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     const [googleUser, setGoogleUser] = useState<GoogleUser | null>(null);
     const [products, setProducts] = useState<Product[]>(initialProductsData as Product[]);
     const [shoppingList, setShoppingList] = useState<ShoppingItem[]>([]);
+
+    useEffect(() => {
+        fetch('/data/products.json')
+            .then(r => r.ok ? r.json() : Promise.reject())
+            .then((extra: Product[]) => {
+                setProducts(prev => {
+                    const ids = new Set(prev.map(p => p.id));
+                    const novos = extra.filter(p => !ids.has(p.id));
+                    return novos.length > 0 ? [...prev, ...novos] : prev;
+                });
+            })
+            .catch(() => {});
+    }, []);
     const [professionals, setProfessionals] = useState<Professional[]>([
         { id: '1', name: 'Fernando Alves', role: 'Sênior', hourlyRate: 150 },
     ]);

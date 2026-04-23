@@ -9,7 +9,6 @@ import {
   ListIcon,
   PageIcon,
   PieChartIcon,
-  TaskIcon,
 } from "../icons";
 import { useSidebar } from "../context/SidebarContext";
 import SidebarWidget from "./SidebarWidget";
@@ -41,16 +40,6 @@ const navItems: NavItem[] = [
     icon: <PageIcon />,
     name: "Info Impostos",
     path: "/taxes",
-  },
-  {
-    icon: <TaskIcon />,
-    name: "Gerenciamento de Projetos",
-    subItems: [
-      { name: "Visão Geral", path: "/projeto" },
-      { name: "Profissionais", path: "/projeto/profissionais" },
-      { name: "Tarefas", path: "/projeto/tarefas" },
-      { name: "Financeiro", path: "/projeto/financeiro" },
-    ],
   },
 ];
 

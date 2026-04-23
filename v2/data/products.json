@@ -1,0 +1,308 @@
+[
+  {
+    "id": 301,
+    "name": "Leite integral Itambé 1L",
+    "category": "Alimentos",
+    "storeType": "supermercado",
+    "price": 5.99,
+    "taxes": { "icms": 0.07, "ipi": 0, "pis": 0.00165, "cofins": 0.0076 },
+    "history": [5.49, 5.69, 5.89, 5.99]
+  },
+  {
+    "id": 302,
+    "name": "Leite integral Piracanjuba 1L",
+    "category": "Alimentos",
+    "storeType": "supermercado",
+    "price": 5.49,
+    "taxes": { "icms": 0.07, "ipi": 0, "pis": 0.00165, "cofins": 0.0076 },
+    "history": [4.99, 5.19, 5.39, 5.49]
+  },
+  {
+    "id": 303,
+    "name": "Manteiga Qualy 200g",
+    "category": "Alimentos",
+    "storeType": "supermercado",
+    "price": 8.9,
+    "taxes": { "icms": 0.12, "ipi": 0, "pis": 0.0165, "cofins": 0.076 },
+    "history": [7.9, 8.29, 8.69, 8.9]
+  },
+  {
+    "id": 304,
+    "name": "Iogurte Danone natural 170g",
+    "category": "Alimentos",
+    "storeType": "supermercado",
+    "price": 3.49,
+    "taxes": { "icms": 0.12, "ipi": 0, "pis": 0.0165, "cofins": 0.076 },
+    "history": [2.99, 3.19, 3.39, 3.49]
+  },
+  {
+    "id": 305,
+    "name": "Queijo mussarela kg",
+    "category": "Alimentos",
+    "storeType": "supermercado",
+    "price": 42.9,
+    "taxes": { "icms": 0.12, "ipi": 0, "pis": 0.0165, "cofins": 0.076 },
+    "history": [38.5, 40.2, 41.9, 42.9]
+  },
+  {
+    "id": 306,
+    "name": "Azeite de oliva Gallo 500ml",
+    "category": "Alimentos",
+    "storeType": "supermercado",
+    "price": 29.9,
+    "taxes": { "icms": 0.12, "ipi": 0, "pis": 0.0165, "cofins": 0.076 },
+    "history": [25.9, 27.5, 28.9, 29.9]
+  },
+  {
+    "id": 307,
+    "name": "Maionese Hellmanns 500g",
+    "category": "Alimentos",
+    "storeType": "supermercado",
+    "price": 12.5,
+    "taxes": { "icms": 0.19, "ipi": 0, "pis": 0.0165, "cofins": 0.076 },
+    "history": [10.9, 11.5, 12.0, 12.5]
+  },
+  {
+    "id": 308,
+    "name": "Sal refinado 1kg",
+    "category": "Alimentos",
+    "storeType": "supermercado",
+    "price": 2.49,
+    "taxes": { "icms": 0.07, "ipi": 0, "pis": 0.00165, "cofins": 0.0076 },
+    "history": [2.19, 2.29, 2.39, 2.49]
+  },
+  {
+    "id": 309,
+    "name": "Açúcar cristal 2kg União",
+    "category": "Alimentos",
+    "storeType": "supermercado",
+    "price": 7.9,
+    "taxes": { "icms": 0.07, "ipi": 0, "pis": 0.00165, "cofins": 0.0076 },
+    "history": [6.9, 7.29, 7.69, 7.9]
+  },
+  {
+    "id": 310,
+    "name": "Açúcar demerara 1kg",
+    "category": "Alimentos",
+    "storeType": "supermercado",
+    "price": 6.5,
+    "taxes": { "icms": 0.07, "ipi": 0, "pis": 0.00165, "cofins": 0.0076 },
+    "history": [5.8, 6.1, 6.3, 6.5]
+  },
+  {
+    "id": 311,
+    "name": "Frango inteiro congelado kg",
+    "category": "Carnes",
+    "storeType": "supermercado",
+    "price": 12.9,
+    "taxes": { "icms": 0.07, "ipi": 0, "pis": 0.00165, "cofins": 0.0076 },
+    "history": [11.5, 12.0, 12.5, 12.9]
+  },
+  {
+    "id": 312,
+    "name": "Coxa e sobrecoxa kg",
+    "category": "Carnes",
+    "storeType": "supermercado",
+    "price": 10.9,
+    "taxes": { "icms": 0.07, "ipi": 0, "pis": 0.00165, "cofins": 0.0076 },
+    "history": [9.5, 10.0, 10.5, 10.9]
+  },
+  {
+    "id": 313,
+    "name": "Alcatra bovina kg",
+    "category": "Carnes",
+    "storeType": "supermercado",
+    "price": 42.9,
+    "taxes": { "icms": 0.07, "ipi": 0, "pis": 0.00165, "cofins": 0.0076 },
+    "history": [38.0, 40.0, 41.5, 42.9]
+  },
+  {
+    "id": 314,
+    "name": "Carne moída kg",
+    "category": "Carnes",
+    "storeType": "supermercado",
+    "price": 28.9,
+    "taxes": { "icms": 0.07, "ipi": 0, "pis": 0.00165, "cofins": 0.0076 },
+    "history": [25.0, 26.5, 28.0, 28.9]
+  },
+  {
+    "id": 315,
+    "name": "Linguiça toscana kg",
+    "category": "Carnes",
+    "storeType": "supermercado",
+    "price": 22.9,
+    "taxes": { "icms": 0.12, "ipi": 0, "pis": 0.0165, "cofins": 0.076 },
+    "history": [19.9, 20.9, 21.9, 22.9]
+  },
+  {
+    "id": 316,
+    "name": "Presunto cozido kg",
+    "category": "Carnes",
+    "storeType": "supermercado",
+    "price": 32.9,
+    "taxes": { "icms": 0.12, "ipi": 0, "pis": 0.0165, "cofins": 0.076 },
+    "history": [29.0, 30.5, 31.9, 32.9]
+  },
+  {
+    "id": 317,
+    "name": "Pimentão verde kg",
+    "category": "Hortifruti",
+    "storeType": "supermercado",
+    "price": 7.9,
+    "taxes": { "icms": 0, "ipi": 0, "pis": 0, "cofins": 0 },
+    "history": [6.5, 7.0, 7.5, 7.9]
+  },
+  {
+    "id": 318,
+    "name": "Abobrinha italiana kg",
+    "category": "Hortifruti",
+    "storeType": "supermercado",
+    "price": 5.9,
+    "taxes": { "icms": 0, "ipi": 0, "pis": 0, "cofins": 0 },
+    "history": [4.9, 5.3, 5.7, 5.9]
+  },
+  {
+    "id": 319,
+    "name": "Manga Tommy kg",
+    "category": "Hortifruti",
+    "storeType": "supermercado",
+    "price": 8.9,
+    "taxes": { "icms": 0, "ipi": 0, "pis": 0, "cofins": 0 },
+    "history": [7.5, 7.9, 8.5, 8.9]
+  },
+  {
+    "id": 320,
+    "name": "Morango bandeja 300g",
+    "category": "Hortifruti",
+    "storeType": "supermercado",
+    "price": 9.9,
+    "taxes": { "icms": 0, "ipi": 0, "pis": 0, "cofins": 0 },
+    "history": [7.9, 8.5, 9.3, 9.9]
+  },
+  {
+    "id": 321,
+    "name": "Água mineral Crystal 1.5L",
+    "category": "Bebidas",
+    "storeType": "supermercado",
+    "price": 3.49,
+    "taxes": { "icms": 0.12, "ipi": 0, "pis": 0.0165, "cofins": 0.076 },
+    "history": [2.99, 3.19, 3.39, 3.49]
+  },
+  {
+    "id": 322,
+    "name": "Cerveja Brahma lata 350ml",
+    "category": "Bebidas",
+    "storeType": "supermercado",
+    "price": 3.5,
+    "taxes": { "icms": 0.21, "ipi": 0.20, "pis": 0.021, "cofins": 0.0965 },
+    "history": [2.99, 3.19, 3.39, 3.5]
+  },
+  {
+    "id": 323,
+    "name": "Cerveja Skol lata 350ml",
+    "category": "Bebidas",
+    "storeType": "supermercado",
+    "price": 3.29,
+    "taxes": { "icms": 0.21, "ipi": 0.20, "pis": 0.021, "cofins": 0.0965 },
+    "history": [2.79, 2.99, 3.19, 3.29]
+  },
+  {
+    "id": 324,
+    "name": "Shampoo Pantene 400ml",
+    "category": "Higiene",
+    "storeType": "supermercado",
+    "price": 18.9,
+    "taxes": { "icms": 0.19, "ipi": 0.07, "pis": 0.0165, "cofins": 0.076 },
+    "history": [15.9, 17.0, 18.0, 18.9]
+  },
+  {
+    "id": 325,
+    "name": "Condicionador Pantene 400ml",
+    "category": "Higiene",
+    "storeType": "supermercado",
+    "price": 18.9,
+    "taxes": { "icms": 0.19, "ipi": 0.07, "pis": 0.0165, "cofins": 0.076 },
+    "history": [15.9, 17.0, 18.0, 18.9]
+  },
+  {
+    "id": 326,
+    "name": "Sabonete Dove 90g",
+    "category": "Higiene",
+    "storeType": "supermercado",
+    "price": 5.9,
+    "taxes": { "icms": 0.12, "ipi": 0.05, "pis": 0.0165, "cofins": 0.076 },
+    "history": [4.9, 5.3, 5.7, 5.9]
+  },
+  {
+    "id": 327,
+    "name": "Detergente Ypê 500ml",
+    "category": "Limpeza",
+    "storeType": "supermercado",
+    "price": 3.49,
+    "taxes": { "icms": 0.19, "ipi": 0.05, "pis": 0.0165, "cofins": 0.076 },
+    "history": [2.99, 3.19, 3.39, 3.49]
+  },
+  {
+    "id": 328,
+    "name": "Amaciante Downy 1L",
+    "category": "Limpeza",
+    "storeType": "supermercado",
+    "price": 14.9,
+    "taxes": { "icms": 0.19, "ipi": 0.05, "pis": 0.0165, "cofins": 0.076 },
+    "history": [12.5, 13.5, 14.3, 14.9]
+  },
+  {
+    "id": 329,
+    "name": "Sabão em pó OMO 1.6kg",
+    "category": "Limpeza",
+    "storeType": "supermercado",
+    "price": 24.9,
+    "taxes": { "icms": 0.19, "ipi": 0.05, "pis": 0.0165, "cofins": 0.076 },
+    "history": [21.5, 22.9, 23.9, 24.9]
+  },
+  {
+    "id": 330,
+    "name": "Esponja de limpeza Scotch-Brite",
+    "category": "Limpeza",
+    "storeType": "supermercado",
+    "price": 4.9,
+    "taxes": { "icms": 0.19, "ipi": 0.05, "pis": 0.0165, "cofins": 0.076 },
+    "history": [3.9, 4.3, 4.7, 4.9]
+  },
+  {
+    "id": 331,
+    "name": "Gasolina comum litro",
+    "category": "Combustíveis",
+    "storeType": "posto",
+    "price": 6.29,
+    "taxes": { "icms": 0.25, "ipi": 0, "pis": 0.0212, "cofins": 0.0975 },
+    "history": [5.89, 6.09, 6.19, 6.29]
+  },
+  {
+    "id": 332,
+    "name": "Etanol aditivado litro",
+    "category": "Combustíveis",
+    "storeType": "posto",
+    "price": 4.89,
+    "taxes": { "icms": 0.12, "ipi": 0, "pis": 0.0131, "cofins": 0.0604 },
+    "history": [4.49, 4.65, 4.79, 4.89]
+  },
+  {
+    "id": 333,
+    "name": "Diesel S-10 litro",
+    "category": "Combustíveis",
+    "storeType": "posto",
+    "price": 6.89,
+    "taxes": { "icms": 0.12, "ipi": 0, "pis": 0.0185, "cofins": 0.0847 },
+    "history": [6.39, 6.59, 6.75, 6.89]
+  },
+  {
+    "id": 334,
+    "name": "GNV metro cúbico",
+    "category": "Combustíveis",
+    "storeType": "posto",
+    "price": 4.19,
+    "taxes": { "icms": 0.12, "ipi": 0, "pis": 0.0165, "cofins": 0.076 },
+    "history": [3.79, 3.95, 4.09, 4.19]
+  }
+]
